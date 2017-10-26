@@ -1,0 +1,26 @@
+{
+  "name": "site",
+  "description": "Site for Greekgod",
+  "version": "1.0.0",
+  "main": "app.js",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Dim",
+      "email": "dimggyt@gmail.com",
+      "url": "https://dim.codes"
+    },
+    {
+      "name": "Snitt"
+    }
+  ],
+  "scripts": {
+    "forever": "forever start app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-session": "*",
+    "snekfetch": "*",
+    "sqlite": "^2.8.0"
+  }
+}
