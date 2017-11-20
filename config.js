@@ -1,12 +1,14 @@
 module.exports = {
-  port: 8080,
-  streamer: 'greekgodx',
+  port: 8081,
+	streamer: 'greekgodx',
+	// https://discordapp.com/developers/applications/me/create
   discord: {
-    id: '362013573523832854',
-    secret: 'gpEjjKm5B6-TqvLfQcZOkasiHPqdD9ik'
-  },
+    id: '368498970453999616',
+    secret: 'OGRBjNGNz3nwP1TUXTEYCvq1Mwe3NfjC'
+	},
+	// https://dev.twitch.tv/dashboard/apps/create
   twitch: {
     id: 'mclar0p6rlms49tdf058ac3zwvghge',
-    secret: '3f2zh5wq12jigiucpvudtx7iab01fs'
+    secret: 'e0hicad2bqai7pt3y4fenrmupyy1oy'
   }
 };
